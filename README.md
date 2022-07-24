@@ -71,7 +71,7 @@ To run application take the following steps:
 
 - Clone repo to your computer.
 - Open terminal and run npm i
-- Using this [link]( https://git.heroku.com/ancient-hollows-49434.git) check out this application on Heroku
+- Using this [link](https://git.heroku.com/ancient-hollows-49434.git) check out this application on Heroku
 
 ---
 
