@@ -35,19 +35,19 @@ const resolvers = {
                 throw new AuthenticationError('Incorrect credentails');
             }
 
-            const token = singleToken(user);
+            const token = signToken(user);
             return { token, user };
         },
         saveBook: async (_parent, { input }, context) => {
             if (context.user) {
                 const updateUser = await User.findOneAndUpdate(
                     { _id: context.user._id },
-                    { $addtoSet: { savedBooks: input } },
+                    { $addToSet: { savedBooks: input } },
                     { new: true }
                 );
                 return updateUser;
             }
-            throw new AuthenticationsError('Not Logged in');
+            throw new AuthenticationError('Not Logged in');
         },
         removeBook: async (_parent, { bookId }, context) => {
             if (context.user) {
