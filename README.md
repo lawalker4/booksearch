@@ -51,7 +51,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ### Installation
 
-- [REPO](https://github.com/lawalker4/thesocialapi/tree/develop)
+- [REPO](https://github.com/lawalker4/booksearch/tree/develop)
 
 - [Express.js](https://expressjs.com/en/starter/installing.html)
 
