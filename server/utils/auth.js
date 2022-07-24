@@ -41,4 +41,25 @@ module.exports = {
 
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
   },
-};
+
+  authMiddleware: function ( {req} ) {
+    let token = req.body.token || req.headers.authorization;
+
+    //["Bearer"]
+    if (req.headers.authorization){
+      token = token.split('').pop().trim();
+    }
+
+    if (!token){
+      return req;
+    }
+
+    try {
+      const { data } = jwt.verity(token, secret, { maxAge: expiration});
+      req.user = data;
+    } catch {
+      console.log('Invalid token');
+    }
+    return req;
+    }
+  };
