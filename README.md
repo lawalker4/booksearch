@@ -57,9 +57,9 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 - [Mongoose](https://www.npmjs.com/package/mongoose)
 
-- [REACT] (https://reactjs.org/)
+- [REACT](https://reactjs.org/)
 
-- [Apollo] (https://www.apollographql.com/docs/studio/explorer/explorer/)
+- [Apollo](https://www.apollographql.com/docs/studio/explorer/explorer/)
 
 - [Heroku](www.heroku.com)
 
