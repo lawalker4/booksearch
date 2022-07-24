@@ -83,7 +83,7 @@ To run application take the following steps:
 :movie_camera:	
 
 
-![Screenshot](./images/Screenshot.PNG)
+![Screenshot](./images/Screenshot.JPG)
 
 ---
 
