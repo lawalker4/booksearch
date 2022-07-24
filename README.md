@@ -69,12 +69,9 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 To run application take the following steps:
 
--Clone repo to your computer.
--Open terminal and run npm i
--nom install mongoose
--Run npm start
--Using this [link] () check out this application on Heroku
-
+- Clone repo to your computer.
+- Open terminal and run npm i
+- Using this [link] () check out this application on Heroku
 
 ---
 
